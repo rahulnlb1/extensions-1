@@ -4,9 +4,12 @@ platforms:
 configuration:
   healthCheckUrl:
     type: Url
+    required: true
   notifyOnSuccess:
     type: Boolean
+    required: true
   notifyOnFailure:
     type: Boolean
+    required: true
   stuff:
     type: String[]
