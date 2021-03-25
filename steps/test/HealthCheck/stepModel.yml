@@ -1,6 +1,7 @@
 description: "Health check step"
 platforms:
  - os: Windows
+ - os: Linux
 configuration:
   healthCheckUrl:
     type: Url
@@ -13,3 +14,16 @@ configuration:
     required: true
   stuff:
     type: String[]
+  etc:
+    type: foo
+    required: true
+
+userDefinedDataType:
+  - type: foo
+    configuration:
+      example:
+        type: String
+      example2:
+        type: String
+        required: true
+
