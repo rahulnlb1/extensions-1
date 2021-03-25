@@ -6,6 +6,8 @@ configuration:
   sourceArtifactory:
     type: Integration
     required: true
+    validate:
+      allowedIntegrationTypes: [Artifactory]
   gitProvider:
     type: Integration
     required: true

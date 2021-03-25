@@ -26,4 +26,3 @@ userDefinedDataType:
       example2:
         type: String
         required: true
-
