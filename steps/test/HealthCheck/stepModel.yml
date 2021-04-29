@@ -1,5 +1,5 @@
 description: "Health check step"
-icon: el-icon-scissors
+icon: el-scissors
 platforms:
  - os: Linux
 configuration:
